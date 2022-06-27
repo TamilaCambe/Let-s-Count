@@ -1,0 +1,81 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    body {
+        background: rgb(12, 82, 91);
+        font: normal 12pt Arial;
+    }
+    
+    h1 {
+        text-align: center;
+        margin-top: 150px;
+        margin-bottom: 20px;
+        color: white;
+    }
+    
+    section {
+        background: rgb(161, 157, 157);
+        width: 500px;
+        height: 100%;
+        border-radius: 10px;
+        margin: auto;
+    }
+    
+    label {
+        margin-left: 25px;
+        display: inline;
+        font-size: 15pt;
+    }
+    
+    .titulos-inputs1 {
+        display: inline;
+        margin-top: 25px;
+        width: 70px;
+    }
+    
+    .titulos-inputs2 {
+        display: inline;
+        margin-top: 20px;
+        width: 70px;
+    }
+    
+    .titulos-inputs3 {
+        display: inline;
+        margin-top: 20px;
+        width: 70px;
+    }
+    
+    button {
+        margin-top: 30px;
+        margin-left: 15px;
+        width: 80px;
+        height: 30px;
+        font-size: 15pt;
+        border-radius: 5px;
+        cursor: pointer;
+        display: block;
+    }
+    
+    button:hover {
+        background: rgb(12, 82, 91);
+        color: beige;
+        border-radius: 5px;
+        transition-delay: 1ms;
+        cursor: pointer;
+    }
+    
+    p {
+        margin-top: 35px;
+        margin-left: 15px;
+        font-size: 15pt;
+    }
+    
+    footer {
+        text-align: center;
+        font-style: italic;
+        color: white;
+    }
